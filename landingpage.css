@@ -1,0 +1,118 @@
+/*estilização de posicionamento*/
+
+body
+{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    user-zoom: none;
+    user-select: none;
+}
+
+#sectionum
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 295px;
+}
+
+#logo
+{
+    width: 56px;height: 50px;
+
+}
+
+main
+{
+    margin-left: 265px;
+}
+
+aside
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 23px;
+
+}
+
+#texto
+{
+    padding-top: 70px;
+}
+
+p
+{
+    line-height: 25px;
+}
+
+#imgfundo
+{
+    width: 300px;
+    height: 300px;
+}
+
+section
+{
+    margin: 0%;
+}
+
+#hdois
+{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+footer
+{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+}
+
+/*estilização de links e botões*/
+
+ul
+{
+    user-select: none;
+}
+
+li
+{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    user-select: none;
+}
+
+li:hover
+{
+    user-select: none;
+    color: #ADA7FF;
+    transition: all 0.5s;
+    cursor:pointer;
+}
+
+
+button
+{
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:#ADA7FF;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
